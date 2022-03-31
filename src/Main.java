@@ -1,7 +1,7 @@
 
 import classes.OnTaskErrorListener;
 import classes.Worker;
-import classes.Worker.OnTaskDoneListener;
+import classes.OnTaskDoneListener;
 
 public class Main {
 

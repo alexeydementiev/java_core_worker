@@ -10,12 +10,6 @@ public class Worker {
 		this.errorCallback = errorCallback;
 	}
 
-	@FunctionalInterface
-	public interface OnTaskDoneListener {
-
-		void onDone(String result);
-	}
-
 	public void start() {
 		for (int i = 0; i < 100; i++) {
 			if (i == 33) {
